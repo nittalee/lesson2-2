@@ -29,6 +29,7 @@
 }
 
 .card__hr{
+  box-shadow: none;
   margin-top: 200px;
   position:relative;
   width:100px;
