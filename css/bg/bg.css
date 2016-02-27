@@ -1,0 +1,46 @@
+#body
+
+.bg{
+  position: fixed;
+  background-image: url(../../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  width: 103%;
+  height: 100%;
+  margin-left: -3%;
+  left:0;
+  top:0;
+  filter: grayscale(70%);
+  -webkit-filter: grayscale(70%);
+  transition: all 0.45s;
+  filter
+}
+
+body#body:hover .bg {
+    background-position-x: 100%;
+    margin-left: 0;
+    transition: all 0.45s;
+}
+
+#bg-overlay:hover{
+  background-color: #000;
+  position: fixed;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  transition: all 0.45s;
+}
+
+#bg-overlay{
+  background-color: #000;
+  position: fixed;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.45s;
+}

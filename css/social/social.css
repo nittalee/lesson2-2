@@ -1,0 +1,15 @@
+.social{
+  font: 10pt sans-serif;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  text-align: right;
+}
+
+.social__link{
+  color: white;
+}
+
+.social__link:hover{
+  text-decoration: none;
+}
