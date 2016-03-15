@@ -1,0 +1,92 @@
+.card{
+    position: relative;
+    top: 400px;
+    width: 550px;
+    margin: 20px;
+    padding: 20px 60px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: all 0.2s;
+
+    &__title{
+      font-size: 60px;
+      font-family: @fonts-r;
+      font-weight: 700;
+      color: white;
+    }
+
+    &__hr{
+      box-shadow: none;
+      margin-top: 200px;
+      position:relative;
+      width:100px;
+      align: center;
+    }
+
+    &__h2{
+      font-size: 20pt;
+      font-family: @fonts-r;
+      font-weight: 400;
+      color: #E4B236;
+      margin-top: 60px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+
+    &__hr{
+      box-shadow: none;
+      margin-top: 200px;
+      position:relative;
+      width:100px;
+      align: center;
+    }
+
+
+    &__hr{
+      box-shadow: none;
+      margin-top: 200px;
+      position:relative;
+      width:100px;
+      align: center;
+    }
+
+    &__button{
+        text-align: center;
+        margin-top: 100px;
+
+        & ul{
+            position: relative;
+        }
+
+        & a{
+          text-align: center;
+          font-size: 30px;
+          font-family: @fonts-r;
+          font-weight: 700;
+          color: @black;
+          background-color: @white;
+          padding: 20px 30px;
+          border-radius: 4px;
+          text-decoration: none;
+          text-transform: uppercase;
+          line-height: 200px;
+        }
+
+        &:hover {
+          animation-name: card__button-pulse;
+          animation-duration: 1s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          transform: translateZ(0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          backface-visibility: hidden;
+          vertical-align: middle;
+        }
+    }
+
+
+
+
+}
